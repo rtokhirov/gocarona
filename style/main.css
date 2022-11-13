@@ -1,0 +1,427 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../font/Raleway-Bold.woff2") format("woff2"),
+    url("../font/Raleway-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../font/Rubik-Bold.woff2") format("woff2"),
+    url("../font/Rubik-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../font/Rubik-Regular.woff2") format("woff2"),
+    url("../font/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid; */
+}
+
+.contenier {
+  width: 100%;
+  width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 37px 80px;
+}
+
+header {
+  background: #fafbfd;
+}
+header .contenier {
+  /* padding-top: 37px; */
+  display: flex;
+  justify-content: space-between;
+}
+.nav-img {
+  padding-left: 9px;
+}
+.nav-btn {
+  /* width: 144px;
+  height: 40px; */
+  padding: 14px 20px;
+  background: rgba(66, 133, 244, 1);
+  border-radius: 5px;
+}
+.nav-btn a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.14em;
+
+  color: #fcfdfe;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-ul {
+  display: flex;
+  list-style: none;
+  padding: 14px 0;
+}
+.nav-li:not(:last-child) {
+  margin-right: 40px;
+}
+.nav-a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.14em;
+
+  color: #000000;
+}
+.Take_care_of_yours_familys_health {
+  background: #fafbfd;
+}
+.Take_care_of_yours_familys_health .contenier {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.text {
+  padding-top: 173px;
+  padding-left: 20px;
+  width: 500px;
+}
+.text-img {
+  padding-top: 43px;
+  width: 555px;
+  height: 400px;
+}
+.text-h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  /* or 55px */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #000000;
+  margin-bottom: 12px;
+}
+.text-p {
+  width: 380px;
+  margin-bottom: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #616161;
+}
+.play {
+  width: 250px;
+}
+.text-btn {
+  width: 144px;
+  height: 40px;
+  padding: 8px 18px 8px 26px;
+  background: rgba(236, 88, 99, 1);
+  border-radius: 5px;
+}
+.text-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.14em;
+
+  color: #fcfdfe;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.play {
+  display: flex;
+  margin-top: 150px;
+  padding-left: 20px;
+  padding-bottom: 11px;
+}
+
+.play-desc {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 126%;
+  /* or 16px */
+
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #b0b0b0;
+}
+.play-desc:not(:last-child) {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 126%;
+  /* or 16px */
+
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #b0b0b0;
+  margin-bottom: 5px;
+}
+.for_te {
+  padding: 6px 12px;
+}
+.Stay_safe_with_GoCorona {
+  background: #ffffff;
+}
+.Stay_safe_with_GoCorona .contenier {
+  display: flex;
+  justify-content: space-between;
+}
+.text-go {
+  /* width:; */
+  padding: 240px 200px;
+  /* width: 370px; */
+}
+.go-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #616161;
+  margin-bottom: 26px;
+}
+.go-h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  /* or 55px */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #000000;
+  margin-bottom: 15px;
+}
+.go-btn {
+  width: 144px;
+  height: 40px;
+  padding: 8px 29px;
+  background: rgba(236, 88, 99, 1);
+  border-radius: 5px;
+}
+.go-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.14em;
+
+  color: #fcfdfe;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.img-goCaro {
+  padding-left: 60px;
+  padding-top: 80px;
+}
+.number {
+  background: #fafbfd;
+}
+.num-users {
+  padding: 104px 210px 80px 210px;
+}
+.num-ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 80px;
+  list-style: none;
+  background: #ffffff;
+  box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+  border-radius: 16px;
+}
+.num-h5 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.14em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  text-align: center;
+  color: #ec5863;
+}
+.num-b {
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.37em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #000000;
+}
+.talk {
+  display: flex;
+  padding: 80px 20px 120px 20px;
+  justify-content: space-between;
+}
+.text-talk {
+  padding: 50px 0 45px 25px;
+  width: 363px;
+}
+.talk-h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  /* or 55px */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #000000;
+  margin-bottom: 13px;
+}
+.talk-p {
+  margin-bottom: 25px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #616161;
+}
+.talk-btn {
+  /* text-align: center; */
+  width: 144px;
+  height: 40px;
+  padding-top: 8px;
+  padding-left: 30px;
+  background: rgba(236, 88, 99, 1);
+  border-radius: 5px;
+}
+
+.talk-btn a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+
+  color: #fcfdfe;
+  text-decoration: none;
+}
+.Healthcare .contenier {
+  padding: 48px 37px;
+}
+.logo-heal {
+  text-align: center;
+  padding: 0 336px;
+}
+.heal-h1 {
+  margin-bottom: 14px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  /* or 55px */
+
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #ec5863;
+}
+.heal-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #616161;
+}
+.stiker {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 75px;
+}
+.stiker-ic {
+  margin-top: 47px;
+  width: 282px;
+  height: 280px;
+  padding: 37px 18px;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.for_store {
+  margin-top: 80px;
+  margin-left: 394px;
+  display: flex;
+  align-items: center;
+}
+.store-img {
+  margin-right: 128px;
+}
